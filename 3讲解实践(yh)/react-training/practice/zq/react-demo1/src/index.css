@@ -1,0 +1,83 @@
+.container {
+  margin: 0 auto;
+}
+.step-wrap {
+  margin: 0 auto;
+}
+.step-wrap .step {
+  position: relative;
+  display: inline-block;
+  margin-right: 10px;
+}
+.step-wrap .step:last-child span::after {
+  height: 0;
+}
+.step-wrap .step p {
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+  line-height: 30px;
+  margin-right: 10px;
+  text-align: center;
+  border: 1px solid #ccc;
+  border-radius: 50%;
+}
+.step-wrap .step span {
+  display: inline-block;
+  margin-right: 100px;
+}
+.step-wrap .step span::after {
+  position: absolute;
+  width: 98px;
+  height: 1px;
+  content: '';
+  background: #ccc;
+  top: 50%;
+  left: 50%;
+}
+.step-wrap .step i {
+  font-style: normal;
+}
+.step-wrap .step-active p {
+  background: #108ee9;
+  color: #fff;
+}
+.step-wrap .step-active span {
+  display: inline-block;
+  margin-right: 100px;
+  color: #108ee9;
+}
+.step-wrap .step-active span::after {
+  position: absolute;
+  width: 98px;
+  height: 1px;
+  content: '';
+  background: #108ee9;
+  top: 50%;
+  left: 50%;
+}
+.step-wrap .step-active i {
+  font-style: normal;
+}
+.step-wrap .step-done p {
+  background: #fff;
+  color: #108ee9;
+  border: 1px solid #108ee9;
+}
+.step-wrap .step-done span {
+  display: inline-block;
+  margin-right: 100px;
+  color: #108ee9;
+}
+.step-wrap .step-done span::after {
+  position: absolute;
+  width: 98px;
+  height: 1px;
+  content: '';
+  background: #108ee9;
+  top: 50%;
+  left: 50%;
+}
+.step-wrap .step-done i {
+  font-style: normal;
+}

@@ -1,0 +1,24 @@
+{
+
+  "compilerOptions": {
+      "lib": ["ES2016", "ES2015", "dom"],
+      "target": "ES6",
+      "moduleResolution": "node",
+      "jsx": "preserve",
+      "module": "esnext",
+      "experimentalDecorators": true,
+      "allowSyntheticDefaultImports": true,
+      "sourceMap": true,
+      "baseUrl": "./",
+      "paths": {
+        "*": ["*","src/*"]
+      }
+  },
+  "include": [
+      "src/*"
+  ],
+  "files": [
+      "typings/index.d.ts",
+      "typings/declaration.d.ts"
+  ]
+}

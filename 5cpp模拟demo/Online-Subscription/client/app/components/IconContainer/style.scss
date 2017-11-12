@@ -1,0 +1,30 @@
+.iconContainer{
+  display: flex;
+  align-items: center;
+  &:nth-child(5) {
+    margin-top: 20px;
+  }
+  .icon{
+    height: 28px;
+    width: 28px;
+    margin-right: -30px;
+  }
+}
+@media (max-width: 768px) {
+  .iconContainer:nth-child(4) {
+    .iconReset {
+      position: relative;
+      margin-top: 118px;
+    }
+  }
+}
+
+.inside{
+  input{
+    padding-right: 30px
+  }
+  .icon{
+    margin-left: -30px;
+    margin-right: 0px;
+  }
+}

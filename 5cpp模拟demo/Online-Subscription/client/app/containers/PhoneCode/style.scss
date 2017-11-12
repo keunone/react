@@ -1,0 +1,59 @@
+.input{
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    color: #555770;
+    padding: 0 20px;
+    font-size: 14px;
+    background: #eee;
+}
+
+.border{
+  border: 1px solid red;
+}
+
+.number{
+    display: block;
+    width: 440px;
+    height: 35px;
+    margin: 8px 0;
+}
+
+.wrapper{
+    display: flex;
+    align-items: center;
+}
+
+.iconWrapper{
+  width: 468px;
+  position: absolute;
+  top: 0;
+  left: 50%;
+}
+
+.code{
+    display: inline-block;
+    height: 35px;
+    margin: 8px 5px 8px 0;
+    vertical-align: middle;
+}
+
+.button{
+    cursor: pointer;
+}
+
+
+@media (max-width: 768px){
+  .iconWrapper{
+    width: 100%;
+  }
+  .number{
+    width: 100%;
+  }
+  .code{
+    width: 100%;
+  }
+  .button{
+    font-size: 14px;
+    margin-top: 5px;
+  }
+}

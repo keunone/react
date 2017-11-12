@@ -1,0 +1,6 @@
+{
+  "app.components.Login.login": "登录",
+  "app.components.Login.email": "邮箱",
+  "app.components.Login.password": "密码",
+  "app.components.HomePage.buyNow": "现在购买"
+}

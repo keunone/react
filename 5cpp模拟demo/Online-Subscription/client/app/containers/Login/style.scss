@@ -1,0 +1,14 @@
+.formGroupReset{
+  margin:0 10px;
+  margin-right: 40px;
+  margin-left: 0;
+  position: relative;
+}
+.loginButton{
+  background-color: #00B0B9;
+}
+.hiddenSm{
+  @media (max-width: 768px) {
+    display: none !important;
+  }
+}

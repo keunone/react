@@ -1,0 +1,6 @@
+{
+  "app.components.Login.login": "login",
+  "app.components.Login.email": "email",
+  "app.components.Login.password": "password",
+  "app.components.HomePage.buyNow": "Buy Now"
+}

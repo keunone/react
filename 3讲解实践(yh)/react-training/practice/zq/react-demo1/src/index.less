@@ -1,0 +1,92 @@
+.container {
+    margin: 0 auto;
+}
+
+.step-wrap {
+    margin: 0 auto;
+    .step {
+        position: relative;
+        display: inline-block;
+        margin-right: 10px;
+        &:last-child {
+            span {
+                &::after {
+                    height: 0;
+                }
+            }
+        }
+        p {
+            display: inline-block;
+            width: 30px;
+            height: 30px;
+            line-height: 30px;
+            margin-right: 10px;
+            text-align: center;
+            border: 1px solid #ccc;
+            border-radius: 50%;
+        }
+        span{
+            display: inline-block;
+            margin-right: 100px;
+            &::after {
+                position: absolute;
+                width: 98px;
+                height: 1px;
+                content:''; 
+                background:#ccc; 
+                top:50%; 
+                left:50%; 
+            }
+        }
+        i {
+            font-style: normal;
+        }
+    }
+    .step-active {
+        p {
+            background: #108ee9;
+            color: #fff;
+        }
+        span{
+            display: inline-block;
+            margin-right: 100px;
+            color: #108ee9;
+            &::after {
+                position: absolute;
+                width: 98px;
+                height: 1px;
+                content:''; 
+                background:#108ee9; 
+                top:50%; 
+                left:50%; 
+            }
+        }
+        i {
+            font-style: normal;
+        }
+    }
+    .step-done {
+        p {
+            background: #fff;
+            color: #108ee9;
+            border: 1px solid #108ee9;
+        }
+        span{
+            display: inline-block;
+            margin-right: 100px;
+            color: #108ee9;
+            &::after {
+                position: absolute;
+                width: 98px;
+                height: 1px;
+                content:''; 
+                background:#108ee9; 
+                top:50%; 
+                left:50%; 
+            }
+        }
+        i {
+            font-style: normal;
+        }
+    }
+}

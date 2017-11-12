@@ -1,0 +1,29 @@
+.base{
+  position: fixed;
+  top: 5px;
+  left: 50%;
+  margin-left: -120px;
+  width: 240px;
+  border-radius: 5px;
+  font-size: 16px;
+  padding: 5px 10px;
+  z-index: 20
+}
+.customError{
+  composes: base;
+  color: rgb(169, 68, 66);
+  border: 1px solid rgb(235, 204, 209);
+  background-color: rgb(242, 222, 222);
+}
+.customWarn{
+  composes: base;
+  color: #8a6d3b;
+  border: 1px solid #faebcc;
+  background-color: #fcf8e3
+}
+.customSuccess{
+  composes: base;
+  color: #fff;
+  border: 1px solid #4cae4c;
+  background-color: #5cb85c;
+}

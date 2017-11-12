@@ -1,0 +1,53 @@
+:global{
+  .svg-success{
+    fill:green
+  }
+  .svg-warn{
+    fill: #f04134
+  }
+  .error-message{
+    position: absolute;
+    color: #f04134;
+    top: 40px;
+    left: 5px;
+  }
+  .haserror{
+    border-color:#f04134 !important
+  }
+  .loading-modal{
+    position: fixed;
+    // position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    min-height: 1000px;
+    height: 100%;
+    background: #808080;
+    opacity: 0.6;
+    z-index: 10;
+  }
+  .custom-loading{
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    margin-left: -32px;
+    z-index:20;
+  }
+  .fade-enter{
+    opacity: 0.01;
+  }
+
+  .fade-enter.fade-enter-active {
+    opacity: 1;
+    transition: opacity 500ms ease-in;
+  }
+
+  .fade-leave {
+    opacity: 1;
+  }
+
+  .fade-leave.fade-leave-active {
+    opacity: 0.01;
+    transition: opacity 500ms ease-in;
+  }
+}

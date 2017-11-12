@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="132px" height="20px" viewBox="0 0 132 20" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: sketchtool 39.1 (31720) - http://www.bohemiancoding.com/sketch -->
+    <title>FD8A03E5-1206-4C85-AAB6-96F66254676F</title>
+    <desc>Created with sketchtool.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" font-weight="bold">
+        <g id="导航收起" transform="translate(-29.000000, -25.000000)" fill="#5C7DFE">
+            <g id="navbar">
+                <g id="logo" transform="translate(28.000000, 21.000000)">
+                    <g id="logo_NovoBio" font-size="24" font-family="Helvetica-Bold, Helvetica">
+                        <text id="NovoBio">
+                            <tspan x="0" y="23">NovoBio</tspan>
+                        </text>
+                    </g>
+                    <g id="logo_LIMS" transform="translate(104.000000, 3.000000)" font-size="12" font-family="Helvetica-BoldOblique, Helvetica" font-style="italic">
+                        <text id="LIMS">
+                            <tspan x="0" y="11">LIMS</tspan>
+                        </text>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,50 @@
+.selectMode{
+  max-width: 500px;
+  margin: auto;
+  margin: 30px auto;
+  p{
+    font-size: 20px;
+    line-height: 1.3;
+    color: #074f71;
+    margin: 0 0 15px 0;
+  }
+  form {
+    width: 100%;
+    margin: 0 auto;
+    input,
+    select{
+      width: 100%;
+      margin: 10px 0;
+      padding: 8px 15px;
+      font-size: 1rem;
+      color: #555770;
+      background-color: #eee;
+      border-radius: 5px;
+      box-sizing: border-box;
+    }
+  }
+
+
+}
+.btn{
+  margin: auto;
+  display: block;
+  margin-top: 30px;
+}
+
+@media (max-width: 768px) {
+  .selectMode {
+    width: 70vw;
+    input,
+    select{
+      width: 100%;
+      margin: 10px 0;
+      padding: 8px 15px;
+      font-size: 1rem;
+      color: #555770;
+      background-color: #eee;
+      border-radius: 5px;
+      box-sizing: border-box;
+    }
+  }
+}

@@ -1,0 +1,21 @@
+.languageSelect{
+  position: absolute;
+  top: 0;
+  right: 30px;
+  .languageList{
+    background: #fff;
+    .cur{
+      color: #000;
+    }
+    span{
+      border-right: solid 2px #999;
+      padding-right: 6px;
+      padding-left: 6px;
+      color: #999;
+    }
+    span:last-of-type{
+      border: none;
+    }
+  }
+
+}

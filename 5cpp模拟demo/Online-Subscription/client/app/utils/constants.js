@@ -1,0 +1,7 @@
+export const RESTART_ON_REMOUNT = '@@saga-injector/restart-on-remount'
+export const DAEMON = '@@saga-injector/daemon'
+export const ONCE_TILL_UNMOUNT = '@@saga-injector/once-till-unmount'
+// export const REQUEST_URL = 'https://easy-mock.com/mock/59ca145be0dc663341bb7c3a/cpp_front'
+export const REQUEST_URL = 'http://rhwx.gtartplay.com'
+export const REQUEST_ACCEPT = 'application/json, text/plain, */*'
+export const REQUEST_CONTENT_TYPE = 'application/json'

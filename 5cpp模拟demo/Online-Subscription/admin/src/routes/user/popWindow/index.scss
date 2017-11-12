@@ -1,0 +1,43 @@
+/* use css to set position of modal */
+.verticalCenterModal {
+  .ant-modal{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+  }
+}
+// .verticalCenterModal:before {
+//   content: '';
+//   display: inline-block;
+//   height: 100%;
+//   vertical-align: middle;
+//   width: 0;
+// }
+
+// .verticalCenterModal .ant-modal {
+//   display: inline-block;
+//   vertical-align: middle;
+//   top: 0;
+//   text-align: left;
+// }
+
+
+.formWrapper{
+  max-width: 450px;
+  position: relative;
+  // margin: 0 auto;
+  // box-shadow: 0 0 30px 5px rgba(0,0,0,0.1);
+  p{
+    position: absolute;
+    left: 20px;
+    top: 20px;
+    font-size: 18px;
+  }
+  .form{
+    // padding: 75px 0;
+  }
+  .ant-form-item{
+    margin-bottom: 30px;
+  }
+}
+

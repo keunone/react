@@ -1,0 +1,63 @@
+.controllerButton{
+  margin:0 auto;
+  max-width: 310px;
+  text-align: center;
+}
+.preButton{
+  width: 120px;
+  height: 120px;
+  margin-top: 55px;
+  margin-right: 5px;
+  display: inline-block;
+  line-height: 120px;
+  color: #fff;
+  font-size: 22px;
+  background-color:#BDA8DE;
+  border-radius: 50%;
+  cursor: pointer;
+}
+.preButton:hover{
+  background-color:#BDA8DE;
+}
+.baseNext{
+  width: 180px;
+  height: 180px;
+  margin-top: 30px;
+  color: #fff;
+  font-size: 22px;
+  background-color:#00b0b9;
+  border-radius: 50%;
+  cursor: pointer;
+}
+.nextButton{
+  composes: baseNext;
+  display: inline-block;
+  line-height: 180px;
+}
+.nextButton:hover{
+  background-color:#00b0b9;
+}
+.fourthButton{
+  composes: baseNext;
+  float:right;
+  padding-top: 60px;
+  line-height: 30px;
+}
+
+@media (max-width: 768px) {
+  .preButton{
+    width: 100px;
+    height: 100px;
+    line-height: 100px;
+  }
+  .baseNext {
+    width: 160px;
+    height: 160px;
+    line-height: 160px;
+  }
+  .fourthButton{
+    float:right;
+    padding-top: 55px;
+    line-height: 30px;
+  }
+}

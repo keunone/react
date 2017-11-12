@@ -1,0 +1,27 @@
+.fifthContainer {
+  width: 34%;
+  margin: 0 auto;
+  text-align: center;
+  .title {
+    margin-top: 40px;
+    color: #074f71;
+    font-size: 34px;
+  }
+  @media (max-width: 768px) {
+    .title {
+      font-size: 22px;
+    }
+  }
+  .detail {
+    color: #074f71;
+    font-size: 14px;
+    line-height: 24px;
+  }
+  .orderCode {
+    margin-top: 20px;
+    color: #13c2b1;
+    font-size: 26px;
+    font-weight: 700;
+    word-wrap:break-word;
+  }
+}

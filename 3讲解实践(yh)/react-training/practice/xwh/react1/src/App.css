@@ -1,0 +1,60 @@
+.App {
+  background: #ccc;
+}
+.MyControlStep{
+  background: #000;
+  height: 120px;
+}
+.BoxStepComponent{
+}
+.StepComponent{
+  color: #ccc;
+  float: left;
+  width: 50px;
+  text-align: center;
+  margin-right: 60px;
+}
+.StepComponent.active{
+  color: #f00;
+}
+.StepComponent.old{
+  position: relative;
+  color: #f99;
+}
+.StepComponent.old:after{
+  position: absolute;
+  top: 50%;
+  left: 100%;
+  content:'';
+  width: 60px;
+  height: 4px;
+  background: #f99;
+  display: block;
+}
+.StepComponent .Circle{
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  line-height: 20px;
+  border-radius: 50%;
+  background: #ccf;
+  font-size: 12px;
+  text-align: center;
+}
+
+
+.MyRadio{
+
+}
+.MyRadio.active{
+
+}
+.MyRadio .ico{
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background: #000;
+}
+.MyRadio.active .ico{
+  outline: 2px solid #f00;
+}

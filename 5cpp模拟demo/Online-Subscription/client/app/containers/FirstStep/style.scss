@@ -1,0 +1,94 @@
+.firstStepWrap {
+  width: 500px;
+  margin: 30px auto;
+  padding: 0 20px;
+  text-align: center;
+
+  .sexSelect {
+    width: 430px;
+  }
+  input,select {
+    margin: 10px 0;
+    padding: 8px 15px;
+    font-size: 1rem;
+    color: #555770;
+    background-color: #eee;
+    border-radius: 5px;
+    box-sizing: border-box;
+  }
+  .selectWrap {
+    width: 430px;
+    margin: 0;
+    justify-content: space-between
+    // style={{width: '430px', margin: 0, justifyContent: 'space-between' }}
+  }
+  input {
+    width: 430px;
+  }
+  select {
+    width: 100%;
+  }
+  input::-webkit-input-placeholder {
+    color: #555770;
+  }
+　input:-moz-placeholder {
+    color: #555770;
+  }
+　　input::-moz-placeholder {
+      color: #555770;
+    }
+　　input:-ms-input-placeholder {
+      color: #555770;
+    }
+
+  .brithdayTitle {
+    margin-top: 20px;
+    color: #074f71;
+    text-align: left;
+  }
+
+  button {
+    width: 150px;
+    height: 150px;
+    margin-top: 30px;
+    color: #fff;
+    font-size: 22px;
+    background-color:#00b0b9;
+    border-radius: 50%;
+    cursor: pointer;
+  }
+}
+@media (max-width: 768px) {
+  .firstStepWrap {
+    width: 70vw;
+    margin: 30px auto;
+    padding: 0;
+    text-align: center;
+    form {
+      width: 100%;
+      .sexSelect {
+        width: 100%;
+      }
+      input,select {
+        width: 100%;
+        margin: 10px auto;
+        padding: 8px 15px;
+        font-size: 1rem;
+        color: #555770;
+        background-color: #eee;
+        border-radius: 5px;
+        box-sizing: border-box;
+      }
+      .brithdayTitle {
+        width: 100%;
+        margin: 0 auto;
+        color: #074f71;
+        text-align: left;
+      }
+      .selectWrap {
+        width: 100%;
+        margin: 0 auto;
+      }
+    }
+  }
+}

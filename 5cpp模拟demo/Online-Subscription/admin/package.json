@@ -1,0 +1,65 @@
+{
+  "private": true,
+  "version": "0.0.3",
+  "scripts": {
+    "start": "cross-env BROWSER=none roadhog server",
+    "setup": "npm install && roadhog buildDll",
+    "build": "roadhog build",
+    "build:dll": "roadhog buildDll",
+    "build:new": "node version && roadhog build",
+    "lint": "tslint --config ./tslint.json --project ./tsconfig.json"
+  },
+  "pre-commit": [
+    "lint"
+  ],
+  "engines": {
+    "install-node": "6.11.1"
+  },
+  "dependencies": {
+    "antd": "^2.13.4",
+    "axios": "^0.16.2",
+    "babel-plugin-import": "^1.6.0",
+    "babel-polyfill": "^6.23.0",
+    "babel-runtime": "^6.9.2",
+    "classnames": "^2.2.5",
+    "dva": "^2.0.3",
+    "dva-loading": "^1.0.2",
+    "history": "^4.7.2",
+    "js-cookie": "^2.1.4",
+    "nprogress": "^0.2.0",
+    "query-string": "^5.0.0",
+    "react": "^15.6.1",
+    "react-dom": "^15.6.1"
+  },
+  "devDependencies": {
+    "@types/nprogress": "0.0.29",
+    "@types/react": "^15.5.6",
+    "@types/react-dom": "^15.5.6",
+    "@types/react-redux": "^5.0.10",
+    "@types/webpack": "^3.0.13",
+    "babel-eslint": "^7.2.3",
+    "babel-plugin-dva-hmr": "^0.3.2",
+    "babel-plugin-transform-runtime": "^6.9.0",
+    "copy-webpack-plugin": "^4.1.0",
+    "cross-env": "^5.1.1",
+    "eslint": "^4.8.0",
+    "eslint-config-airbnb": "^16.0.0",
+    "eslint-plugin-import": "^2.2.0",
+    "eslint-plugin-jsx-a11y": "^6.0.2",
+    "eslint-plugin-react": "^7.4.0",
+    "expect": "^21.2.1",
+    "html-webpack-plugin": "^2.29.0",
+    "husky": "^0.14.3",
+    "js-beautify": "^1.6.14",
+    "node-sass": "^4.5.3",
+    "react-addons-perf": "^15.4.2",
+    "redbox-react": "^1.4.3",
+    "redux-immutable-state-invariant": "^2.1.0",
+    "redux-logger": "^3.0.6",
+    "roadhog": "^1.2.1",
+    "sass-loader": "^6.0.6",
+    "tslint": "^5.7.0",
+    "tslint-config-airbnb": "^5.3.0",
+    "tslint-react": "^3.2.0"
+  }
+}
