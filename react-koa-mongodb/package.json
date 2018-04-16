@@ -1,0 +1,11 @@
+{
+  "name": "react-learn-higher",
+  "version": "1.0.0",
+  "description": "learn more react",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Keun",
+  "license": "ISC"
+}
