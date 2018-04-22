@@ -170,7 +170,7 @@ const path = require('path'),
          */
         filename: jsDir + '[name].js'   // 配置输出结构,这里配置的是按路径和模块名进行生成
       }),
-      new webpack.HotModuleReplacementPlugin(),
+      new webpack.HotModuleReplacementPlugin(), // webpack中的热更新插件
       new webpack.NamedModulesPlugin(),
       new webpack.NoEmitOnErrorsPlugin()
     ]
