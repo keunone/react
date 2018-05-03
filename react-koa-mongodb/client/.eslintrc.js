@@ -125,9 +125,9 @@ module.exports = {
       "react", "jsx-a11y", "import"
     ],
     "rules": {
-      "linebreak-style": [
-        "error", "unix"
-      ],
+      // "linebreak-style": [
+      //   "error", "unix"
+      // ],
       "quotes": [
         "error", "single"
       ],
