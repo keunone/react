@@ -1,12 +1,15 @@
 ## 框架简介
 本项目是基于 [dva](https://github.com/dvajs/dva) 框架搭建的一个后台管理网站
 ## 相关资料
-[dva介绍PPT](http://slides.com/sorrycc/dva#/8/2)
-[dva基础概念](https://github.com/dvajs/dva/blob/master/docs/Concepts_zh-CN.md)
-[dva知识梳理](https://github.com/dvajs/dva-knowledgemap)
-[dva API](https://github.com/dvajs/dva/blob/f9e07c0ad7a1beb91a56b125e2acb8eb989914de/docs/API_zh-CN.md)
-[antd admin](https://github.com/zuiidea/antd-admin)
-[antd 文档] (https://github.com/ant-design/ant-design/blob/HEAD/README-zh_CN.md)
+[dva介绍PPT](http://slides.com/sorrycc/dva#/8/2)   
+[dva文档](https://dvajs.com/guide/getting-started.html#%E5%AE%89%E8%A3%85-dva-cli)   
+[dva基础概念](https://github.com/dvajs/dva/blob/master/docs/Concepts_zh-CN.md)  
+[dva知识梳理](https://github.com/dvajs/dva-knowledgemap)  
+[dva API](https://github.com/dvajs/dva/blob/f9e07c0ad7a1beb91a56b125e2acb8eb989914de/docs/API_zh-CN.md)  
+[antd 文档](https://github.com/ant-design/ant-design/blob/HEAD/README-zh_CN.md)   
+[例子](https://dvajs.com/guide/examples-and-boilerplates.html)：   
+[1、antd admin](https://github.com/zuiidea/antd-admin)   
+[2、小型库存管理系统](https://dvajs.com/guide/examples-and-boilerplates.html#%E5%AE%98%E6%96%B9)
 ## 运行项目
 1. npm run setup
 2. npm start
